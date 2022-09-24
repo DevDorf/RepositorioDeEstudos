@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjetoExemplo.Models
 {
-    internal class Pessoa
+    internal class Pessoa 
     {
-        public string name { get; set; }
-        public int idade { get; set; }
+        public string Nome { get; set; }
+        public int Idade { get; set; }
 
         public void Apresenta()
         {
-            Console.WriteLine($"Meu nome é {nome} e tenho {idade} anos");
+            Console.WriteLine($"Meu nome é {Nome} e tenho {Idade} anos");
 
         }
         
