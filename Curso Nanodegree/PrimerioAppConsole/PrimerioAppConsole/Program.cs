@@ -55,26 +55,7 @@
 
         Console.WriteLine("{0:c}", valor1);
 
-
-
-
-
-
-
-
-
-
         byte item = 20;
-
-
-
-
-
-
-
-
-
-
         
     }
 }

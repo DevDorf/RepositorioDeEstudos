@@ -3,7 +3,7 @@
 Console.Write("Digite o valor do produto: ");
 decimal valor = Convert.ToDecimal(Console.ReadLine());
 
-Console.Write("Digite a quantidade desejada:");
+Console.Write("Digite a quantidade desejada: ");
 int quantidade = Convert.ToInt32(Console.ReadLine());
 
 decimal resultado = quantidade * valor;
@@ -16,6 +16,3 @@ int numParcela = Convert.ToInt32(Console.ReadLine());
 decimal parcela = resultado / numParcela;
 
 Console.Write("Você tera uma parcela de: {0:c}", parcela);
-
-
-
