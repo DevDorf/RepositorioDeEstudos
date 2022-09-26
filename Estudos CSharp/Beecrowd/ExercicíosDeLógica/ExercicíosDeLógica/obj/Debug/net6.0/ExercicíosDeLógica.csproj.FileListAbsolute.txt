@@ -1,0 +1,15 @@
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\bin\Debug\net6.0\ExercicíosDeLógica.exe
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\bin\Debug\net6.0\ExercicíosDeLógica.deps.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\bin\Debug\net6.0\ExercicíosDeLógica.runtimeconfig.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\bin\Debug\net6.0\ExercicíosDeLógica.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\bin\Debug\net6.0\ExercicíosDeLógica.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.csproj.AssemblyReference.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.GeneratedMSBuildEditorConfig.editorconfig
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.AssemblyInfoInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.AssemblyInfo.cs
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.csproj.CoreCompileInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\refint\ExercicíosDeLógica.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ExercicíosDeLógica.genruntimeconfig.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\Beecrowd\ExercicíosDeLógica\ExercicíosDeLógica\obj\Debug\net6.0\ref\ExercicíosDeLógica.dll
