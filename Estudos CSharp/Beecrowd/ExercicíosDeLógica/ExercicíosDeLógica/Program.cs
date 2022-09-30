@@ -53,7 +53,7 @@ double b = Convert.ToDouble(Console.ReadLine());
 
 double media = ((3.5 * a) + (7.5 * b)) / 11;
 
-Console.WriteLine($"MEDIA = {Math.Round(media, 1)}");
+Console.WriteLine("MEDIA = " + media);
 
 
 
