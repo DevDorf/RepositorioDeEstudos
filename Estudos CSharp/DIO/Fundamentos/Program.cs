@@ -1,12 +1,66 @@
 ﻿using Fundamentos.Models;
 
 
-int a = 10;
-int b = 20;
 
-int c = a + b;
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine(c);
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade da compra: {quantidadeCompra}");
+Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+
+if(possivelVenda) 
+{
+    Console.WriteLine("Venda Realizada");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade em estoque!");
+}
+
+
+
+
+
+// string a = "15-";
+
+// int b = 0;
+
+// int.TryParse(a, out b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
+
+
+
+// Cast - Casting
+// int a = Convert.ToInt32("5");
+// int a = int.Parse("5");
+
+// Console.WriteLine(a);
+
+
+
+
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
+
+// c += 5;
+
+// Console.WriteLine(c);
 
 
 
