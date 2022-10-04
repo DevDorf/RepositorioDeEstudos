@@ -48,14 +48,35 @@
 
 //beecrowd | 1005 - Média 1
 
+// double a = Convert.ToDouble(Console.ReadLine());
+// double b = Convert.ToDouble(Console.ReadLine());
+
+// double media = ((3.5 * a) + (7.5 * b)) / 11;
+
+// Console.WriteLine("MEDIA = " + media);
+
+//beecrowd | 1006 - Média 2
+
 double a = Convert.ToDouble(Console.ReadLine());
 double b = Convert.ToDouble(Console.ReadLine());
+double c = Convert.ToDouble(Console.ReadLine());
 
-double media = ((3.5 * a) + (7.5 * b)) / 11;
+double media = ((a * 2) + (b * 3) + (c * 5))/ 10;
 
-Console.WriteLine("MEDIA = " + media);
-
-
-
+Console.WriteLine("MEDIA = ") + media;
 
 
+
+
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 1006
+//beecrowd | 10
