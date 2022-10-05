@@ -16,14 +16,13 @@
 
 
 //beecrowd | 1002 - Área do Círculo
-//
-//double n = 3.14159;
-//
-//double raio = Convert.ToDouble(Console.ReadLine());
-//
-//double areaCircunferencia = n * Math.Pow(raio, 2);
-//
-//Console.WriteLine($"A={areaCircunferencia.ToString("N4")}");
+
+double pi = 3.14159;
+
+double raio = Convert.ToDouble(Console.ReadLine());
+double areaCircunferencia = pi * Math.Pow(raio, 2);
+
+Console.WriteLine($"A={areaCircunferencia}");
 
 
 //beecrowd | 1003 - Soma Simples
@@ -95,15 +94,17 @@
 
 //beecrowd | 1009 - Salário com Bônus
 
-string nome = Console.ReadLine();
-decimal salarioFixo = Convert.ToDecimal(Console.ReadLine());
-decimal totalVendas = Convert.ToDecimal(Console.ReadLine());
+// string nome = Console.ReadLine();
+// decimal salarioFixo = Convert.ToDecimal(Console.ReadLine());
+// decimal totalVendas = Convert.ToDecimal(Console.ReadLine());
+// decimal porcentagemBonus = 15/100;
 
-decimal bonus = totalVendas * (15/100);
+// decimal bonus = totalVendas * porcentagemBonus;
 
-decimal salarioFinal = salarioFixo + bonus;
+// decimal salarioFinal = salarioFixo + bonus;
 
-Console.WriteLine($"TOTAL = R$ {salarioFixo}");
+// Console.WriteLine($"TOTAL = R$ {salarioFinal}");
+
 
 
 
