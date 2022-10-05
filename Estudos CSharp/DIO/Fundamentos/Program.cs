@@ -1,17 +1,42 @@
 ﻿using Fundamentos.Models;
 
+int numero = 5;
+int contador = 1;
 
-int numeroIncremento = 10;
-Console.WriteLine("Incrementando o 10");
-numeroIncremento++;
+while (contador <= 10)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
+    if (contador == 5)
+    {
+        break;
+    }
+}
 
-Console.WriteLine(numeroIncremento);
 
-int numeroDecremento = 10;
-Console.WriteLine("Decrementando o 10");
-numeroDecremento--;
 
-Console.WriteLine(numeroDecremento);
+
+// int numero = 5;
+
+// for (int contador = 1; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
+
+
+
+
+// int numeroIncremento = 10;
+// Console.WriteLine("Incrementando o 10");
+// numeroIncremento++;
+
+// Console.WriteLine(numeroIncremento);
+
+// int numeroDecremento = 10;
+// Console.WriteLine("Decrementando o 10");
+// numeroDecremento--;
+
+// Console.WriteLine(numeroDecremento);
 
 
 

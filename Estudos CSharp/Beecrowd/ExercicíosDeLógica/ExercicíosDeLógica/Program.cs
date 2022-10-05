@@ -15,14 +15,14 @@
 //Console.WriteLine($"X = {X}");
 
 
-//beecrowd | 1002 - Área do Círculo
+// //beecrowd | 1002 - Área do Círculo
 
-double pi = 3.14159;
+// double pi = 3.14159;
 
-double raio = Convert.ToDouble(Console.ReadLine());
-double areaCircunferencia = pi * Math.Pow(raio, 2);
+// double raio = Convert.ToDouble(Console.ReadLine());
+// double areaCircunferencia = pi * Math.Pow(raio, 2);
 
-Console.WriteLine($"A={areaCircunferencia}");
+// Console.WriteLine($"A={areaCircunferencia}");
 
 
 //beecrowd | 1003 - Soma Simples
@@ -105,13 +105,15 @@ Console.WriteLine($"A={areaCircunferencia}");
 
 // Console.WriteLine($"TOTAL = R$ {salarioFinal}");
 
+//beecrowd | 1010 - Cálculo Simpes
 
 
 
 
 
 
-//beecrowd | 1006
+
+
 //beecrowd | 1006
 //beecrowd | 1006
 //beecrowd | 1006
