@@ -1,17 +1,142 @@
 ﻿using Fundamentos.Models;
 
-int numero = 5;
-int contador = 1;
 
-while (contador <= 10)
+
+// ARRAYS
+
+int[] numeros = new int[6];
+
+//Preenchendo o arrays
+numeros[0] = 40;
+numeros[1] = 5;
+numeros[2] = 52;
+numeros[3] = 17;
+numeros[4] = 6;
+numeros[5] = 10;
+
+// percorrer o arrays
+
+// for (int i = 0; i < 6; i++)
+// {
+//     Console.WriteLine("numeros[i]");
+// }
+
+foreach(int n in numeros)
 {
-    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
-    contador++;
-    if (contador == 5)
-    {
-        break;
-    }
+    Console.WriteLine(n);
 }
+
+// ordenar
+Array.Sort(numeros);
+
+Array.Reverse(numeros);
+
+foreach(int n in numeros)
+{
+    Console.WriteLine(n);
+}
+
+// Pesquisar
+int indice = Array.IndexOf(numeros, 10);
+if (indice == -1)
+{
+    Console.WriteLine("O numero não fi encontrado");
+}
+else
+{
+    Console.WriteLine($"Encontrado {numeros[indice]} na poscição {indice}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string opcao;
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção: ");
+//     Console.WriteLine("1 - Cadastrar Cliente");
+//     Console.WriteLine("2 - Buscar Cliente");
+//     Console.WriteLine("3 - Apagar Cliente");
+//     Console.WriteLine("4 - Encerrar");
+
+//     opcao = Console.ReadLine();
+
+//     switch(opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de cliente");
+//             break;
+
+//         case "2":
+//             Console.WriteLine("Busca de Cliente");
+//             break;
+
+//         case "3":
+//             Console.WriteLine("Apagar Cliente");
+//             break;
+
+//         case "4":
+//             Console.WriteLine("Encerrar");
+//             exibirMenu = false; //Termina apenas o while e continua o programa
+//             //Environment.Exit(0); Fecha o programa inteiro
+//             break;
+
+//         default:
+//             Console.WriteLine("Opção invalida");
+//             break;
+//     }
+// }
+
+// Console.WriteLine("O programa de encerrou");
+
+
+
+
+// int soma = 0, numero = 0;
+
+// do 
+// {
+//     Console.WriteLine("Digite um numero: (zero para)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+    
+//     soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"Total da soma dos numeros digitados é {soma}");
+
+
+
+
+
+
+// int numero = 5;
+// int contador = 1;
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//     contador++;
+//     if (contador == 5)
+//     {
+//         break;
+//     }
+// }
 
 
 
