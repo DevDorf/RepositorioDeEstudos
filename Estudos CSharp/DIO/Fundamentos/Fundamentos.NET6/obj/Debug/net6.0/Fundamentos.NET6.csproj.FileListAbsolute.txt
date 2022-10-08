@@ -1,0 +1,15 @@
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\bin\Debug\net6.0\Fundamentos.NET6.exe
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\bin\Debug\net6.0\Fundamentos.NET6.deps.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\bin\Debug\net6.0\Fundamentos.NET6.runtimeconfig.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\bin\Debug\net6.0\Fundamentos.NET6.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\bin\Debug\net6.0\Fundamentos.NET6.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.csproj.AssemblyReference.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.GeneratedMSBuildEditorConfig.editorconfig
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.AssemblyInfoInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.AssemblyInfo.cs
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.csproj.CoreCompileInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\refint\Fundamentos.NET6.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\Fundamentos.NET6.genruntimeconfig.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.NET6\obj\Debug\net6.0\ref\Fundamentos.NET6.dll

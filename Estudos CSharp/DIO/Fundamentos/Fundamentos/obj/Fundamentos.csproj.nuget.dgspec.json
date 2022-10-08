@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos\\Fundamentos.csproj": {}
+  },
+  "projects": {
+    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj",
+        "projectName": "Fundamentos.Common",
+        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj",
+        "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
+        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos\\Fundamentos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos\\Fundamentos.csproj",
+        "projectName": "Fundamentos",
+        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos\\Fundamentos.csproj",
+        "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
+        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj": {
+                "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

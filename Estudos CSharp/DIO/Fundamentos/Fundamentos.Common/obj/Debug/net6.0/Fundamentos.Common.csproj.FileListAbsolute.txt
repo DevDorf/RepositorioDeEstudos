@@ -1,0 +1,12 @@
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\bin\Debug\net6.0\Fundamentos.Common.deps.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\bin\Debug\net6.0\Fundamentos.Common.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\bin\Debug\net6.0\Fundamentos.Common.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.csproj.AssemblyReference.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.AssemblyInfoInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.AssemblyInfo.cs
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.csproj.CoreCompileInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\refint\Fundamentos.Common.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\Fundamentos.Common.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Fundamentos\Fundamentos.Common\obj\Debug\net6.0\ref\Fundamentos.Common.dll
