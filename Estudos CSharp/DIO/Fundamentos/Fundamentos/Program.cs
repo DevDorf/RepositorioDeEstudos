@@ -3,10 +3,7 @@ using System.IO;
 using System.Collections;
 
 
-Pessoa pessoa1 = new Pessoa();
-pessoa1.nome = "caio";
-pessoa1.idade = 33;
-pessoa1.Apresentar();
+
 
 
 
@@ -133,6 +130,39 @@ pessoa1.Apresentar();
 
 // ARRAYS
 
+int[] arrayInteiros =new int[3];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] =50;
+
+// Caso precise do valor do contador, usar FOR
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// }
+
+int contadorForeach = 0;
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+    contadorForeach++;
+}
+
+
+
+//Mudar o tamanha do array
+
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Copiar um array (Exemplo do que o Arrys.Resize faz por baixo dos panos)
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+
+//-------------------------------------------------------------------
+
 // int[] numeros = new int[6];
 
 // //Preenchendo o arrays
@@ -142,6 +172,8 @@ pessoa1.Apresentar();
 // numeros[3] = 17;
 // numeros[4] = 6;
 // numeros[5] = 10;
+
+
 
 // // percorrer o arrays
 
@@ -155,6 +187,8 @@ pessoa1.Apresentar();
 //     Console.WriteLine(n);
 // }
 
+
+
 // // ordenar
 // Array.Sort(numeros);
 
@@ -164,6 +198,8 @@ pessoa1.Apresentar();
 // {
 //     Console.WriteLine(n);
 // }
+
+
 
 // // Pesquisar
 // int indice = Array.IndexOf(numeros, 10);
@@ -176,10 +212,14 @@ pessoa1.Apresentar();
 //     Console.WriteLine($"Encontrado {numeros[indice]} na poscição {indice}");
 // }
 
+
+
 // // Tamanho do Arrays
 
 // int tamanho = numeros.Length;
 // Console.WriteLine(tamanho);
+
+
 
 // // Exemplo System IO
 
