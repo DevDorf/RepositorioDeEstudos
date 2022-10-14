@@ -6,6 +6,8 @@ using System.Collections;
 
 
 
+Calculadora calc = new Calculadora();
+calc.Somar(10, 20);
 
 
 
@@ -69,6 +71,47 @@ using System.Collections;
 
 
 // Lista
+
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
+
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
+
+
+
+
+
+
+// for(int contador = 0; contador < listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
+// }
+
+
+// int contadorForeach = 0;
+// foreach(int item in listaString)
+// {
+//     Console.WriteLine($"Posição {contadorForeach} - {listaString[contadorForeach]}");
+// }
+
+
+
+
+
+
+// -------------------------------------------------------------------------------
 // List<string> cidades = new List<string>();
 // cidades.Add("São Paulo");
 // cidades.Add("Rio de Janeiro");
@@ -130,11 +173,11 @@ using System.Collections;
 
 // ARRAYS
 
-int[] arrayInteiros =new int[3];
+// int[] arrayInteiros =new int[3];
 
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] =50;
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] =50;
 
 // Caso precise do valor do contador, usar FOR
 // for (int contador = 0; contador < arrayInteiros.Length; contador++)
@@ -142,12 +185,12 @@ arrayInteiros[2] =50;
 //     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
 // }
 
-int contadorForeach = 0;
-foreach(int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
-    contadorForeach++;
-}
+// int contadorForeach = 0;
+// foreach(int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+//     contadorForeach++;
+// }
 
 
 
@@ -157,8 +200,8 @@ foreach(int valor in arrayInteiros)
 
 // Copiar um array (Exemplo do que o Arrys.Resize faz por baixo dos panos)
 
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
 
 //-------------------------------------------------------------------
@@ -281,9 +324,6 @@ Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 // }
 
 // Console.WriteLine("O programa de encerrou");
-
-
-
 
 
 
