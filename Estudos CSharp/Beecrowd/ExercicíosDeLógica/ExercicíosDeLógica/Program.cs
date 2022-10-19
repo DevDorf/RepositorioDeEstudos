@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 
 //beecrowd - 1000 - Hello World!
 //
@@ -17,10 +17,10 @@
 
 // //beecrowd | 1002 - Área do Círculo
 
-// double pi = 3.14159;
+
 
 // double raio = Convert.ToDouble(Console.ReadLine());
-// double areaCircunferencia = pi * Math.Pow(raio, 2);
+// double areaCircunferencia = Math.PI * Math.Pow(raio, 2);
 
 // Console.WriteLine($"A={areaCircunferencia}");
 
