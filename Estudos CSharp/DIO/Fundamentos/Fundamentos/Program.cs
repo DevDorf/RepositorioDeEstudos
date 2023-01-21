@@ -6,8 +6,9 @@ using System.Collections;
 
 
 
-Calculadora calc = new Calculadora();
-calc.Somar(10, 20);
+
+// Calculadora calc = new Calculadora();
+// calc.Somar(10, 20);
 
 
 
@@ -72,22 +73,22 @@ calc.Somar(10, 20);
 
 // Lista
 
-List<string> listaString = new List<string>();
+// List<string> listaString = new List<string>();
 
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
-listaString.Add("RJ");
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
 
-listaString.Add("SC");
+// listaString.Add("SC");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
 
-listaString.Remove("MG");
+// listaString.Remove("MG");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} = Capacidade: {listaString.Capacity}");
 
 
 

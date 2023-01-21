@@ -1,4 +1,16 @@
-﻿
+﻿// using System;
+
+// class Uri
+// {
+//     static void Main(string[] args)
+//     {
+//            código
+//     }
+// }
+
+
+
+
 
 //beecrowd - 1000 - Hello World!
 //
