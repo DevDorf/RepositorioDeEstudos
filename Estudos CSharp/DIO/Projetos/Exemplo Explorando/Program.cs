@@ -1,7 +1,99 @@
 ﻿using Exemplo_Explorando.Models;
 using System.Globalization;
 
+int numero = 20;
+bool ehPar = false;
 
+//if ternário
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O numero {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O numero {numero} é impar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Caio", "Rodrigues");
+// //Assim chama o contrutor
+
+// (string nome, string sobrenome) = p1;
+// //Assim chama o deconstrutor
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivos, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+// // a variável que esta com o "_", esta sendo descartada, porem ainda podendo ser reutilizada quando necessária. 
+
+
+// if (sucesso)
+// {
+//     //Console.WriteLine($"Quantidade de linhas do arquivo: {QuantidadeLinhas}");
+//     foreach (string linha in linhasArquivos)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Não foi possivel ler o arquivo");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (int, string, string, decimal) tupla = (1, "Caio", "Rodrigues", 1.80M);
+
+// //Outros exemplos de sintaxe da Tupla
+// // ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Caio", "Rodrigues", 1.80M);
+// // var outroExemploTuplaCreate = Tuple.Create(1, "Caio", "Rodrigues", 1.80M);
+
+// Console.WriteLine($"Id: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
 
 
 
