@@ -1,16 +1,15 @@
 ﻿using Exemplo_Explorando.Models;
 using System.Globalization;
 
-int numero = 20;
-bool ehPar = false;
+// int numero = 20;
+// bool ehPar = false;
 
-//if ternário
-ehPar = numero % 2 == 0;
-Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
-
-
+////if ternário
+//ehPar = numero % 2 == 0;
+//Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
 
 
+////if comum
 // if (numero % 2 == 0)
 // {
 //     Console.WriteLine($"O numero {numero} é par");
