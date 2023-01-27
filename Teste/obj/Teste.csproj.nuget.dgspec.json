@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Projetos\\Exemplo Explorando\\Exemplo Explorando.csproj": {}
+    "D:\\C\\DevDorf\\Git\\Csharp\\Teste\\Teste.csproj": {}
   },
   "projects": {
-    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Projetos\\Exemplo Explorando\\Exemplo Explorando.csproj": {
+    "D:\\C\\DevDorf\\Git\\Csharp\\Teste\\Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Projetos\\Exemplo Explorando\\Exemplo Explorando.csproj",
-        "projectName": "Exemplo Explorando",
-        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Projetos\\Exemplo Explorando\\Exemplo Explorando.csproj",
+        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Teste\\Teste.csproj",
+        "projectName": "Teste",
+        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Teste\\Teste.csproj",
         "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Projetos\\Exemplo Explorando\\obj\\",
+        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,9 +38,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Newtonsoft.Json": {
+            "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
-              "version": "[13.0.2, )"
+              "version": "[5.2.9, )"
             }
           },
           "imports": [
