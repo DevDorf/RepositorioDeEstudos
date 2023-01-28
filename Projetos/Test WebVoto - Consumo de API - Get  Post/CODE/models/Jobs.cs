@@ -11,6 +11,15 @@ namespace CODE.models
         {
 
         }
+        public Jobs(string id, string type, string strand, string strandEncoded, string geneEncoded)
+        {
+            Id = id;
+            Type = type;
+            Strand = strand;
+            StrandEncoded = strandEncoded;
+            GeneEncoded = geneEncoded;
+        }
+        
         public string Id { get; set; }
         public string Type { get; set; }
         //Operations types["DecodeStrand", "EncodeStrand", "CheckGene"]

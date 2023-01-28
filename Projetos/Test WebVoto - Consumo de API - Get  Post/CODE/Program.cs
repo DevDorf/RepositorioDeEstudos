@@ -96,9 +96,8 @@ using (var client = new HttpClient()) //POST - decode
     client.DefaultRequestHeaders.Accept.Clear();
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
 
-    var id = new Jobs();// O valor vai receber ele mesmo pra conseguir ter uma leitura direto da classe?
-    var idJob = new Jobs {Id = id.Id};//Dessa forma, consigo receber o id da classe e colocar na rota dinamica abaixo?
-    var response = await client.PostAsJsonAsync("/api/dna/jobs/{id}/decode", idJob);// Porque eu coloco o "idJob" no fina desse parametro?
+    var idJob = new Jobs {Id = ""};//Dessa forma, consigo receber o id da classe e colocar na rota dinamica abaixo?
+    var response = await client.PostAsJsonAsync("/api/dna/jobs/{id}/decode", idJob);
 
     // if (response.IsSuccessStatusCode)
     // {
@@ -112,13 +111,13 @@ using (var client = new HttpClient()) //POST - decode
 
 using (var client = new HttpClient()) //POST - encode
 {
-    //Header//Authorization = Bearer <Access Token> //<AcessToken> aquired on 2.2
-
     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+    client.DefaultRequestHeaders.Accept.Clear();
+    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
 
     var id = new Jobs();// O valor vai receber ele mesmo pra conseguir ter uma leitura direto da classe?
     var idJob = new Jobs {Id = id.Id};//Dessa forma, consigo receber o id da classe e colocar na rota dinamica abaixo?
-    var response = await client.PostAsJsonAsync($"/api/dna/jobs/{idJob}/encode", idJob);// Porque eu coloco o "idJob" no fina desse parametro?
+    var response = await client.PostAsJsonAsync("/api/dna/jobs/{id}/encode", idJob);
 
     // if (response.IsSuccessStatusCode;)
     // {
@@ -132,13 +131,13 @@ using (var client = new HttpClient()) //POST - encode
 
 using (var client = new HttpClient()) //POST - gene
 {
-    //Header//Authorization = Bearer <Access Token> //<AcessToken> aquired on 2.2
-
     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+    client.DefaultRequestHeaders.Accept.Clear();
+    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
 
     var id = new Jobs();// O valor vai receber ele mesmo pra conseguir ter uma leitura direto da classe?
     var idJob = new Jobs {Id = id.Id};//Dessa forma, consigo receber o id da classe e colocar na rota dinamica abaixo?
-    var response = await client.PostAsJsonAsync($"/api/dna/jobs/{idJob}/gene", idJob);// Porque eu coloco o "idJob" no fina desse parametro?
+    var response = await client.PostAsJsonAsync("/api/dna/jobs/{id}/gene", idJob);
 
     // if (response.IsSuccessStatusCode)
     // {
