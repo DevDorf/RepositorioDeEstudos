@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace CODE.models
 {
@@ -24,51 +25,43 @@ namespace CODE.models
 
             set
             {
-                if (value.Length < 4 && value.Length > 32) // Min size 4 chars and max size 32 chars
+                Regex allowedChars = new Regex(@"[a-zA-Z_0-9]");
+                bool aprovedChars = allowedChars.IsMatch(value);
+                bool aprovedSize = value.Length < 4 && value.Length > 32;
+
+                if (!aprovedSize)
                 {
-                    throw new ArgumentException("Min size 4 chars and max size 32 chars");
+                    value = "Min size 4 chars and max size 32 chars";
                 }
-                // else if ()// Procurar a lógica.
-                // {
-                //     throw new ArgumentException("Allowed a-z, A-Z and 0-9 chars only");
-                // }
+                else if (!aprovedChars)
+                {
+                    value = "Allowed a-z, A-Z and 0-9 chars only";
+                }
+                else if (!aprovedChars && !aprovedSize)
+                {
+                    value = "Min size 4 chars and max size 32 chars and allowed a-z, A-Z and 0-9 chars only";
+                }
 
                 UserName = value;
             }
         }
-        public string Email
-        {
-            get => Email;
-            
-            set
-            {
-                if (value == "")
-                {
-                    Console.WriteLine("Your email address so we are able to contact you");
-                }
+        public string Email { get; set; }
 
-                Email = value;
-            }
-        }// 
         public string Password
         {
             get => Password;
 
             set
             {
-                if (value.Length < 8) // Min size 8 chars
+                bool aprovedPassword = value.Length < 8;
+
+                if (!aprovedPassword)
                 {
-                    throw new ArgumentException("Min size 8 chars.");
+                    value = "Min size 8 chars.";
                 }
 
                 Password = value;
             }
-        }
-
-
-        public void Validar()
-        {
-            
         }
     }
 }

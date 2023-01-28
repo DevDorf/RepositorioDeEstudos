@@ -9,7 +9,7 @@ namespace CODE.models
     {
         public Jobs()
         {
-            
+
         }
         public string Id { get; set; }
         public string Type { get; set; }
@@ -19,7 +19,6 @@ namespace CODE.models
         public string StrandEncoded { get; set; }
         // Strand in the Binary format Base64 encoded. Non-null when operation types 'DecodeStrand' and 'CheckGene'
         public string GeneEncoded { get; set; }
-         // A gene segment in the Binary format Base64 encoded. Non-null when operation type 'CheckGene'
-        
+        // A gene segment in the Binary format Base64 encoded. Non-null when operation type 'CheckGene'
     }
 }
