@@ -19,7 +19,7 @@ namespace CODE.models
             StrandEncoded = strandEncoded;
             GeneEncoded = geneEncoded;
         }
-        
+
         public string Id { get; set; }
         public string Type { get; set; }
         //Operations types["DecodeStrand", "EncodeStrand", "CheckGene"]

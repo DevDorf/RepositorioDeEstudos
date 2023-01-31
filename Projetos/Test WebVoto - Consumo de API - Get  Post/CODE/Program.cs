@@ -41,7 +41,7 @@ using (var client = new HttpClient()) //POST - Login
     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
 
     var user = new NewUser();
-    var newLogin = new Login (user.UserName, user.Password); //Recebe os valores da classe NewUser
+    var newLogin = new Login (user.UserName, user.Password); //Recebe os valores da NewUser
     var response = await client.PostAsJsonAsync("/api/users/login", newLogin);
 
     // if (response.IsSuccessStatusCode)
@@ -148,3 +148,14 @@ using (var client = new HttpClient()) //POST - gene
     //     Console.WriteLine($"Message:");
     // }
 }
+
+
+//Usar um método para as conecxoes?
+//O foreach já estajogando os os valores nas propriedades?
+//Verificar a linha da autorização
+//Quando o tratamento da propriedade é na saida, eu jogo no get?
+//Coloco read.line no NewUser ou deixo um valor atribuido?
+//Faço uma nova classe para os metodos de retorno, ou crio os métodos dentro da propria classe "jobs"
+//As mensgens no NewUser são necessárias ou a api vai trazer esse retorno?
+//O encapsulamento deve ser na classe "NewUser" ou na classe "login"
+//Não há tratamento na classe "Login"

@@ -19,7 +19,7 @@ namespace CODE.models
             Password = password;
         }
 
-        public string UserName //Fazer essa validação (Allowed a-z, A-Z and 0-9 chars only)
+        public string UserName
         {
             get => UserName;
 
@@ -27,6 +27,7 @@ namespace CODE.models
             {
                 Regex allowedChars = new Regex(@"[a-zA-Z_0-9]");
                 bool aprovedChars = allowedChars.IsMatch(value);
+                
                 bool aprovedSize = value.Length < 4 && value.Length > 32;
 
                 if (!aprovedSize)
