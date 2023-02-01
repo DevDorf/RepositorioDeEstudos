@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using CODE.models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using DotNetOpenAuth;
+using DotNetOpenAuth.OAuth2;
+
 
 using (var client = new HttpClient()) //POST - NewUser
 {
@@ -43,7 +46,9 @@ using (var client = new HttpClient()) //POST - Login
     var user = new NewUser();
     var newLogin = new Login (user.UserName, user.Password); //Recebe os valores da NewUser
     var response = await client.PostAsJsonAsync("/api/users/login", newLogin);
-
+    // OAuth[newLogin.UserName] = consumerKey;
+    // OAuth[newLogin.Password] = consumerSecret;
+    
     // if (response.IsSuccessStatusCode)
     // {
     //     //Tratamento feitos nas prop da classe
@@ -151,11 +156,15 @@ using (var client = new HttpClient()) //POST - gene
 
 
 //Usar um método para as conecxoes?
-//O foreach já estajogando os os valores nas propriedades?
-//Verificar a linha da autorização
 //Quando o tratamento da propriedade é na saida, eu jogo no get?
+//Verificar a linha da autorização com token
+//As mensgens no NewUser são necessárias ou a api vai trazer esse retorno?
+
+
+//O foreach já esta jogando os os valores nas propriedades da classe jobs?
 //Coloco read.line no NewUser ou deixo um valor atribuido?
 //Faço uma nova classe para os metodos de retorno, ou crio os métodos dentro da propria classe "jobs"
-//As mensgens no NewUser são necessárias ou a api vai trazer esse retorno?
+
+
 //O encapsulamento deve ser na classe "NewUser" ou na classe "login"
 //Não há tratamento na classe "Login"

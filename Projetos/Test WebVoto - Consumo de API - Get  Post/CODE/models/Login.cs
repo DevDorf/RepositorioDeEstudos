@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CODE.models
 {
-    public class Login
+    public class Login //herda as propriedades da classe NewUser?
     {
         public Login(string userName, string password)
         {

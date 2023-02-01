@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "d:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "d:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}

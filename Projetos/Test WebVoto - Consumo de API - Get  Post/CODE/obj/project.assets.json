@@ -2,6 +2,385 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "DotNetOpenAuth/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Mvc": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth.Consumer": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth.ServiceProvider": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth2.AuthorizationServer": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth2.Client.UI": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth2.ResourceServer": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OpenId.Provider.UI": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OpenId.RelyingParty.UI": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OpenIdOAuth": "[5.0.0-alpha3]"
+        }
+      },
+      "DotNetOpenAuth.Core/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http": "(, )"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.Core.UI/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.Mvc/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[5.0.0-alpha3]",
+          "Microsoft.AspNet.Mvc": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.Razor": "[3.0.0, 4.0.0)",
+          "Microsoft.AspNet.WebPages": "[3.0.0, 4.0.0)",
+          "Microsoft.Bcl": "[1.1.3, 2.0.0)",
+          "Microsoft.Bcl.Build": "[1.0.10, 2.0.0)",
+          "Microsoft.Net.Http": "[2.2.15, 3.0.0)",
+          "Microsoft.Web.Infrastructure": "[1.0.0, 2.0.0)",
+          "Validation": "[2.0.2.13022, 3.0.0)"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth.Common/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth.Consumer/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.Consumer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.Consumer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth.Core/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth.Common": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth.ServiceProvider/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.ServiceProvider.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth.ServiceProvider.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth2.AuthorizationServer/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth2.ClientAuthorization": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.AuthorizationServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.AuthorizationServer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth2.Client/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth2.ClientAuthorization": "[5.0.0-alpha3]",
+          "Microsoft.AspNet.WebApi.Client": "[5.0.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth2.Client.UI/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth2.Client": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.Client.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.Client.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth2.ClientAuthorization/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth2.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.ClientAuthorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.ClientAuthorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth2.Core/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth.Common": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OAuth2.ResourceServer/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth2.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.ResourceServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OAuth2.ResourceServer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Core/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Core.UI/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core.UI": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Provider/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OpenId.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.Provider.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.Provider.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Provider.UI/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OpenId.Core.UI": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OpenId.Provider": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.Provider.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.Provider.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.RelyingParty/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OpenId.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.RelyingParty.UI/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OpenId.Core.UI": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OpenId.RelyingParty": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenIdOAuth/5.0.0-alpha3": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.OAuth.Consumer": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OAuth.ServiceProvider": "[5.0.0-alpha3]",
+          "DotNetOpenAuth.OpenId.Core": "[5.0.0-alpha3]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenIdOAuth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenIdOAuth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0",
+          "Microsoft.AspNet.WebPages": "3.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "type": "package",
         "dependencies": {
@@ -18,6 +397,56 @@
             "related": ".xml"
           }
         }
+      },
+      "Microsoft.AspNet.WebPages/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "related": ".Deployment.xml;.Razor.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "related": ".Deployment.xml;.Razor.xml;.xml"
+          }
+        }
+      },
+      "Microsoft.Bcl/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.4"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.10": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -48,6 +477,29 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.Net.Http/2.2.15": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.3",
+          "Microsoft.Bcl.Build": "1.0.10"
+        },
+        "compile": {
+          "lib/net45/System.Net.Http.Extensions.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/System.Net.Http.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/System.Net.Http.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -64,6 +516,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -1565,10 +2026,329 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Validation/2.0.2.13022": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net40+sl5+windowsphone8/Validation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net40+sl5+windowsphone8/Validation.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "DotNetOpenAuth/5.0.0-alpha3": {
+      "sha512": "+Yvp7oIVIGKgAXt/EbLpPZvrw2kqGVa+NXlurgumeD4QcWTQ/Ti9sxp1Hx5Pzay9HorKkFw2R39J8/ID+sx+Wg==",
+      "type": "package",
+      "path": "dotnetopenauth/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.nuspec"
+      ]
+    },
+    "DotNetOpenAuth.Core/5.0.0-alpha3": {
+      "sha512": "fhfLWZ6uKGyq0VdKe8Zfagvu62okWTsmOZEgaWqIU8PnBzVfrxg+5YZcOV6s3lDVwgXtsHWP3GM9J8j4rSte4g==",
+      "type": "package",
+      "path": "dotnetopenauth.core/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.core.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.core.nuspec",
+        "lib/net45-full/DotNetOpenAuth.Core.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.xml"
+      ]
+    },
+    "DotNetOpenAuth.Core.UI/5.0.0-alpha3": {
+      "sha512": "S/v/gjCMo6N9UIvck/Axz9dy4bY6A2RxM3CYKshETDLPF4tuD8RylC+WOkbalgrl8fFTl7nrC8qAi3dLtToGQQ==",
+      "type": "package",
+      "path": "dotnetopenauth.core.ui/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.core.ui.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.core.ui.nuspec",
+        "lib/net45-full/DotNetOpenAuth.Core.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.UI.xml"
+      ]
+    },
+    "DotNetOpenAuth.Mvc/5.0.0-alpha3": {
+      "sha512": "fwvdzFzLlRXA3FfryVx2Kdz35HEnkJgYSNLdZd51zaIA1wcUo6U8jLWDngMnX++UPbIqymIJi7KnB71cqI6iXA==",
+      "type": "package",
+      "path": "dotnetopenauth.mvc/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.mvc.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.mvc.nuspec",
+        "lib/net45-full/DotNetOpenAuth.Mvc.dll",
+        "lib/net45-full/DotNetOpenAuth.Mvc.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth.Common/5.0.0-alpha3": {
+      "sha512": "vO4XOJf61SPHMUrpzIHIe9BQ1CCoaVJ4v1tqSAQ83aM6tJcxeqMUwDP78e7MKa9wEz80+WbEY4NOfegFiPeU7Q==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth.common/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth.common.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth.common.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth.Common.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth.Common.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth.Consumer/5.0.0-alpha3": {
+      "sha512": "KTySy0Pa4JxkfJm7k+eB4qxJQdhE/7Wzb8m9a8Fhl1xwHFmMb9mrowh40dzTeScL7Eju+y7ffR/Z6v54uNzJkA==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth.consumer/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth.consumer.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth.consumer.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth.Consumer.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth.Consumer.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth.Core/5.0.0-alpha3": {
+      "sha512": "sMNVuStlyp8ob0mpSscIKsQeDSRLKc1AgGo2iWo8Ab15k2v2vQIh2tjeR3xv6KnltkixYNCh8aPR+j52EqkvjA==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth.core/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.oauth.core.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth.core.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth.ServiceProvider/5.0.0-alpha3": {
+      "sha512": "ndYtc1KQI3t/Xm3kzCGUvkYWjI48DybbRHR9YRgVmpDx2JRrAIX4po0s0nnYk1uoyMJFYDf5eprx1b5qpr3cMg==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth.serviceprovider/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth.serviceprovider.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth.serviceprovider.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth.ServiceProvider.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth.ServiceProvider.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth2.AuthorizationServer/5.0.0-alpha3": {
+      "sha512": "DHuXYG2K+Z1g+yxGJ/GUMA1K6aiZdhzwGq8wBgQfv/dsDyNnOnhDJpAf4y124tTEdMffCi8RbMlsaqzSM7wHfw==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth2.authorizationserver/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth2.authorizationserver.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth2.authorizationserver.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.AuthorizationServer.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.AuthorizationServer.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth2.Client/5.0.0-alpha3": {
+      "sha512": "BnemAJ00bVWPDWVNUxjhpNjPU2lHOKyAAAsAAOFcE6//JqmSCql/gs3jzr5JaZcGZLsDU4OCZZmjK4ZEh3ajpA==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth2.client/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth2.client.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth2.client.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.Client.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.Client.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth2.Client.UI/5.0.0-alpha3": {
+      "sha512": "CnUsMushnsV+B8bDYXGOWNu8LKSLjXZhAm2bzVlJj2EMBLfTfbg2C/yO1zoaZKQtWfDwF/YuoKVhhayh0rPeAA==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth2.client.ui/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth2.client.ui.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth2.client.ui.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.Client.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.Client.UI.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth2.ClientAuthorization/5.0.0-alpha3": {
+      "sha512": "PasLsKO76lY4Z9LloUEtyaKtHBD6+NYZfgUYEUycoaZmSUyYhu7D8okapk74Aa555fhzvrvJjhN5fEsJyo88OA==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth2.clientauthorization/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth2.clientauthorization.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth2.clientauthorization.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.ClientAuthorization.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.ClientAuthorization.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth2.Core/5.0.0-alpha3": {
+      "sha512": "bih5o/xKWOZO7l0IOr+Fa64IwY0M7ZgkDSumriCyalFezKFZVwKpmi2fdOqftRpDNohNFR1Fvkvyyl0u2LRv7g==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth2.core/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth2.core.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth2.core.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.xml"
+      ]
+    },
+    "DotNetOpenAuth.OAuth2.ResourceServer/5.0.0-alpha3": {
+      "sha512": "BuYdtQBoTOJSXwp11D11cziuln9XeWsbU/ybNv/ZK0wzeuYDunQmLvmZBkFS3yHmW3zNdzdY3ISGcQGOjalZKA==",
+      "type": "package",
+      "path": "dotnetopenauth.oauth2.resourceserver/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.oauth2.resourceserver.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.oauth2.resourceserver.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.ResourceServer.dll",
+        "lib/net45-full/DotNetOpenAuth.OAuth2.ResourceServer.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Core/5.0.0-alpha3": {
+      "sha512": "8RJ9Lozi5DIqu3r7Qmc2n8XmAY7GFWUdrT/AUBViKNp7BB8e2Er56HNj/8nPGoMnJJGbLJnkcTVr1MWAh0L90Q==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.core/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net45-full/web.config.transform",
+        "dotnetopenauth.openid.core.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openid.core.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net45-full/Mono.Math.dll",
+        "lib/net45-full/Mono.Math.xml",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Core.UI/5.0.0-alpha3": {
+      "sha512": "IRBmYzX2pPOm7Lf422Si9P4tEgUgrj/G6AMTBGn/S1/QuHGF6gxNXaCprRbZla26CZLaGXQ2bZesXM+Ysf+A9w==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.core.ui/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.openid.core.ui.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openid.core.ui.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenId.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.UI.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Provider/5.0.0-alpha3": {
+      "sha512": "0MttrejKf/qwxjZGxB1WFiqeCbWLttrFpnyvMX5iQ/VzGi2MQeTgOWSVg9ACFjR6errrABB5NKhG1FiE3Adn2Q==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.provider/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.openid.provider.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openid.provider.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenId.Provider.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.Provider.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Provider.UI/5.0.0-alpha3": {
+      "sha512": "ycydsPLquwISO8/KgF5W1EfWI6wKcRRyxxnAyLj8hh2vnO/2/yXNZnCTlArYGWRLlxrzelskLyxxr1VK9CmGmg==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.provider.ui/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.openid.provider.ui.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openid.provider.ui.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenId.Provider.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.Provider.UI.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.RelyingParty/5.0.0-alpha3": {
+      "sha512": "wji352GdeRf7RwMr63jaIlrmwH/hTj4RyZP276jwsIe9g9t7mXj6HZs2qjaBSLCpi1tuIwAw75XrNDRwh1uj1A==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.relyingparty/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.openid.relyingparty.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openid.relyingparty.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.RelyingParty.UI/5.0.0-alpha3": {
+      "sha512": "pHksRKsv1fl9Ex9TKnUw/ua5p1/04f9eQIMVWSB+Psd9o5noVwtEzg6z+S3pZ1e6yZq1w1k8igua5XvbsvEWNQ==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.relyingparty.ui/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.openid.relyingparty.ui.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openid.relyingparty.ui.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.UI.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenIdOAuth/5.0.0-alpha3": {
+      "sha512": "PoCBcZne5PvJfhiVREl5/BuXzj9XlVGULOaFwBw0HJrjMOtNd2R0X22gLgUOVaaN3yJ9HrVmhf6gOq20tEYx2A==",
+      "type": "package",
+      "path": "dotnetopenauth.openidoauth/5.0.0-alpha3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.openidoauth.5.0.0-alpha3.nupkg.sha512",
+        "dotnetopenauth.openidoauth.nuspec",
+        "lib/net45-full/DotNetOpenAuth.OpenIdOAuth.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenIdOAuth.xml"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/5.0.0": {
+      "sha512": "Dj4C1Nwa1PyxhGtjQx9p6WNTBdvN46gJZMcjQAjxB+2Lmcr+ixior9FGHf9PjH6UUxR9vCZVz16zMlofFdwbPQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.0.0.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.0.0": {
+      "sha512": "mU1W0PRd1uQAb+triRGp51YYkw26RQ9q1tWPX57eHqxDqjx1smRHhejQhhnoAGr3bZDkl8AoUxegGR3tNM+YKA==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.0.0.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.9": {
       "sha512": "cuVhPjjNMSEFpKXweMNBbsG4RUFuuZpFBm8tSyw309U9JEjcnbB6n3EPb4xwgcy9bJ38ctIbv5G8zXUBhlrPWw==",
       "type": "package",
@@ -1586,6 +2366,138 @@
         "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
         "microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
         "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.0.0": {
+      "sha512": "wkz/rBJlALE/tVfhVFpadcaBK0oLGOb8AbuyWQ5qr84JPHtqWjsJUe3Lfyzu2ZixdYrQ9NuKMNlKIshaJUsCFA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.0.0.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.Bcl/1.1.3": {
+      "sha512": "NlSh9kk1UyC25O5JJ6vM/omaEirx0Ysep3CMkFNluQbzlIE14eWNa2rHtmFV1NGAsA/OW6MYvuSi7T7aowD2jw==",
+      "type": "package",
+      "path": "microsoft.bcl/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-RTM.rtf",
+        "ReleaseNotes.txt",
+        "content/net45/_._",
+        "content/portable-net45+win8+wp8/_._",
+        "content/sl4/_._",
+        "content/sl5/_._",
+        "content/win8/_._",
+        "content/wp8/_._",
+        "lib/net40/System.IO.dll",
+        "lib/net40/System.IO.xml",
+        "lib/net40/System.Runtime.dll",
+        "lib/net40/System.Runtime.xml",
+        "lib/net40/System.Threading.Tasks.dll",
+        "lib/net40/System.Threading.Tasks.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net45/_._",
+        "lib/portable-net40+sl4+win8+wp71/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp71/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp71/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp71/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp71/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp71/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp71/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp8/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp8/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp8/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp8/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8/System.IO.dll",
+        "lib/portable-net40+sl4+win8/System.IO.xml",
+        "lib/portable-net40+sl4+win8/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8/ensureRedirect.xml",
+        "lib/portable-net40+sl5+win8+wp8/System.IO.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.IO.xml",
+        "lib/portable-net40+sl5+win8+wp8/System.Runtime.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Runtime.xml",
+        "lib/portable-net40+sl5+win8+wp8/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl5+win8+wp8/ensureRedirect.xml",
+        "lib/portable-net40+win8+wp8/System.IO.dll",
+        "lib/portable-net40+win8+wp8/System.IO.xml",
+        "lib/portable-net40+win8+wp8/System.Runtime.dll",
+        "lib/portable-net40+win8+wp8/System.Runtime.xml",
+        "lib/portable-net40+win8+wp8/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8+wp8/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8+wp8/ensureRedirect.xml",
+        "lib/portable-net40+win8/System.IO.dll",
+        "lib/portable-net40+win8/System.IO.xml",
+        "lib/portable-net40+win8/System.Runtime.dll",
+        "lib/portable-net40+win8/System.Runtime.xml",
+        "lib/portable-net40+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8/ensureRedirect.xml",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/sl4-windowsphone71/System.IO.dll",
+        "lib/sl4-windowsphone71/System.IO.xml",
+        "lib/sl4-windowsphone71/System.Runtime.dll",
+        "lib/sl4-windowsphone71/System.Runtime.xml",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.dll",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.xml",
+        "lib/sl4-windowsphone71/ensureRedirect.xml",
+        "lib/sl4/System.IO.dll",
+        "lib/sl4/System.IO.xml",
+        "lib/sl4/System.Runtime.dll",
+        "lib/sl4/System.Runtime.xml",
+        "lib/sl4/System.Threading.Tasks.dll",
+        "lib/sl4/System.Threading.Tasks.xml",
+        "lib/sl5/System.IO.dll",
+        "lib/sl5/System.IO.xml",
+        "lib/sl5/System.Runtime.dll",
+        "lib/sl5/System.Runtime.xml",
+        "lib/sl5/System.Threading.Tasks.dll",
+        "lib/sl5/System.Threading.Tasks.xml",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "microsoft.bcl.1.1.3.nupkg.sha512",
+        "microsoft.bcl.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.Build/1.0.10": {
+      "sha512": "JpazBBc/JT6o76Gx2q3mxJlGHfv2gK+GTzaJ+PZjf2XNGQOcajNU4PKJqc0udRwmPunZP5GrMhiWUuDVkabh+A==",
+      "type": "package",
+      "path": "microsoft.bcl.build/1.0.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "content/net40/_._",
+        "content/netcore45/_._",
+        "content/portable-net40+win8+sl4+wp71/_._",
+        "content/sl4-windowsphone71/_._",
+        "content/sl4/_._",
+        "microsoft.bcl.build.1.0.10.nupkg.sha512",
+        "microsoft.bcl.build.nuspec",
+        "tools/Install.ps1",
+        "tools/Microsoft.Bcl.Build.Tasks.dll",
+        "tools/Microsoft.Bcl.Build.targets",
+        "tools/Uninstall.ps1"
       ]
     },
     "Microsoft.CSharp/4.3.0": {
@@ -1647,6 +2559,54 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+    "Microsoft.Net.Http/2.2.15": {
+      "sha512": "MN94fktbqBWsrD5gv43g9QkIMvEm5UM95AhAbvxOn85QvCDr6aJhYbHzEAGQXh612afM8ndbzTO7+Wzmb67VZw==",
+      "type": "package",
+      "path": "microsoft.net.http/2.2.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "lib/net40/System.Net.Http.Extensions.XML",
+        "lib/net40/System.Net.Http.Extensions.dll",
+        "lib/net40/System.Net.Http.Primitives.dll",
+        "lib/net40/System.Net.Http.Primitives.xml",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net45/System.Net.Http.Extensions.XML",
+        "lib/net45/System.Net.Http.Extensions.dll",
+        "lib/net45/System.Net.Http.Primitives.dll",
+        "lib/net45/System.Net.Http.Primitives.xml",
+        "lib/net45/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp71/System.Net.Http.Extensions.XML",
+        "lib/portable-net40+sl4+win8+wp71/System.Net.Http.Extensions.dll",
+        "lib/portable-net40+sl4+win8+wp71/System.Net.Http.Primitives.XML",
+        "lib/portable-net40+sl4+win8+wp71/System.Net.Http.Primitives.dll",
+        "lib/portable-net40+sl4+win8+wp71/System.Net.Http.dll",
+        "lib/portable-net40+sl4+win8+wp71/System.Net.Http.xml",
+        "lib/portable-net40+sl4+win8+wp71/ensureRedirect.xml",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.xml",
+        "lib/portable-net45+win8/ensureRedirect.xml",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.xml",
+        "lib/win8/System.Net.Http.Extensions.XML",
+        "lib/win8/System.Net.Http.Extensions.dll",
+        "lib/win8/System.Net.Http.Primitives.dll",
+        "lib/win8/System.Net.Http.Primitives.xml",
+        "microsoft.net.http.2.2.15.nupkg.sha512",
+        "microsoft.net.http.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -1675,6 +2635,18 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -5398,10 +6370,24 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Validation/2.0.2.13022": {
+      "sha512": "4yC2Hojw9nR6n1+D2ypj5UHxuufNmL1GehPAYRh2gfGbbiD8elTRElG8y8ic/qabPG+0VlVZ9nSb3UnKm+pRCg==",
+      "type": "package",
+      "path": "validation/2.0.2.13022",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable-windows8+net40+sl5+windowsphone8/Validation.dll",
+        "lib/portable-windows8+net40+sl5+windowsphone8/Validation.xml",
+        "validation.2.0.2.13022.nupkg.sha512",
+        "validation.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DotNetOpenAuth >= 5.0.0-alpha3",
       "Microsoft.AspNet.WebApi.Client >= 5.2.9"
     ]
   },
@@ -5411,11 +6397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
+      "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj",
       "projectName": "CODE",
-      "projectPath": "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
+      "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj",
       "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-      "outputPath": "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\obj\\",
+      "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5442,6 +6428,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "DotNetOpenAuth": {
+            "target": "Package",
+            "version": "[5.0.0-alpha3, )"
+          },
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[5.2.9, )"
@@ -5466,5 +6456,287 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 5.0.0-alpha3 does not provide an inclusive lower bound for dependency Microsoft.Net.Http. An approximate best match of Microsoft.Net.Http 2.0.20505 was resolved.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Core.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Core.UI",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Mvc 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Mvc",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth.Common 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth.Consumer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth.Consumer",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth.ServiceProvider 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth.ServiceProvider",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth2.AuthorizationServer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth2.AuthorizationServer",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth2.Client 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth2.Client",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth2.Client.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth2.Client.UI",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth2.ClientAuthorization 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth2.ClientAuthorization",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth2.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth2.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OAuth2.ResourceServer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OAuth2.ResourceServer",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Core.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core.UI",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Provider 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Provider",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Provider.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Provider.UI",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.RelyingParty 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.RelyingParty",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.RelyingParty.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.RelyingParty.UI",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenIdOAuth 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenIdOAuth",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Bcl 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Bcl",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.2.15' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Validation 2.0.2.13022' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Validation",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

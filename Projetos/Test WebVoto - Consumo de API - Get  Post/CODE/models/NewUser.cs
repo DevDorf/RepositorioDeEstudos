@@ -27,7 +27,7 @@ namespace CODE.models
             {
                 Regex allowedChars = new Regex(@"[a-zA-Z_0-9]");
                 bool aprovedChars = allowedChars.IsMatch(value);
-                
+
                 bool aprovedSize = value.Length < 4 && value.Length > 32;
 
                 if (!aprovedSize)
@@ -46,7 +46,7 @@ namespace CODE.models
                 UserName = value;
             }
         }
-        public string Email { get; set; }
+        public string Email { get; set; } //Preciso sempre colocar o get? ou assim ele já responde o que recebe?
 
         public string Password
         {
@@ -54,7 +54,7 @@ namespace CODE.models
 
             set
             {
-                bool aprovedPassword = value.Length < 8;
+                bool aprovedPassword = value.Length >= 8;
 
                 if (!aprovedPassword)
                 {

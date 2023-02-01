@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj": {}
+    "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj": {}
   },
   "projects": {
-    "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj": {
+    "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
+        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj",
         "projectName": "CODE",
-        "projectPath": "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
+        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj",
         "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-        "outputPath": "D:\\C\\DevDorf\\Git\\TestesProcessosSeletivos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\obj\\",
+        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DotNetOpenAuth": {
+              "target": "Package",
+              "version": "[5.0.0-alpha3, )"
+            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.9, )"
