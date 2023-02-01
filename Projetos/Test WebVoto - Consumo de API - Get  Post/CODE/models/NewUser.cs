@@ -46,7 +46,7 @@ namespace CODE.models
                 UserName = value;
             }
         }
-        public string Email { get; set; } //Preciso sempre colocar o get? ou assim ele já responde o que recebe?
+        public string Email { get; set; }
 
         public string Password
         {

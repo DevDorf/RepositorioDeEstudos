@@ -6,16 +6,16 @@ using System.Text;
 
 namespace CODE.models
 {
-    public class Conversor
+    public static class Conversor
     {
-        static public string EncodeToBase64(string strand) // Binário para string
+        static public string EncodeBinaryToBase64(string strand) // Binário para string
         {
             byte[] strandAsBytes = Encoding.ASCII.GetBytes(strand);
             string result = System.Convert.ToBase64String(strandAsBytes);
             return result;
         }
 
-        static public string DecodeFromBase64(string strandEncoded) // String para binário
+        static public string EncodeBase64ToBinary(string strandEncoded) // String para binário
         {
             byte[] strandEncodedAsBytes = System.Convert.FromBase64String(strandEncoded);
             string result = System.Text.ASCIIEncoding.ASCII.GetString(strandEncodedAsBytes);

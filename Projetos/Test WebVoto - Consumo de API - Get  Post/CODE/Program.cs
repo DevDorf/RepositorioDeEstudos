@@ -13,17 +13,16 @@ using (var client = new HttpClient()) //POST - NewUser
 {
     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
 
-    Console.WriteLine("UserName: ");
-    string userNameIn = Console.ReadLine();
+    // Console.WriteLine("UserName: ");
+    // string userNameIn = Console.ReadLine();
 
-    Console.WriteLine("Email: ");
-    string emailIn = Convert.ToString(Console.ReadLine());
+    // Console.WriteLine("Email: ");
+    // string emailIn = Convert.ToString(Console.ReadLine());
 
-    Console.WriteLine("Password: ");
-    string passwordIn = Convert.ToString(Console.ReadLine());
+    // Console.WriteLine("Password: ");
+    // string passwordIn = Convert.ToString(Console.ReadLine());
 
-
-    var creat = new NewUser (userNameIn, emailIn, passwordIn);
+    var creat = new NewUser ("CaioRodrigues", "caiorodrigues1989@gmail.com", "0811240413");
     var response = await client.PostAsJsonAsync("/api/users/create", creat);
 
     // if (response.IsSuccessStatusCode)
@@ -46,8 +45,6 @@ using (var client = new HttpClient()) //POST - Login
     var user = new NewUser();
     var newLogin = new Login (user.UserName, user.Password); //Recebe os valores da NewUser
     var response = await client.PostAsJsonAsync("/api/users/login", newLogin);
-    // OAuth[newLogin.UserName] = consumerKey;
-    // OAuth[newLogin.Password] = consumerSecret;
     
     // if (response.IsSuccessStatusCode)
     // {
@@ -73,16 +70,44 @@ using (var client = new HttpClient()) //GET - Jobs
 
     if (response.IsSuccessStatusCode)//GET
     {
-        string job = await response.Content.ReadAsStringAsync();
+        string jobResponse = await response.Content.ReadAsStringAsync();
 
-        var jobRetorno = JsonSerializer.Deserialize<List<Jobs>>(job);
+        var jobRetorno = JsonSerializer.Deserialize<List<Jobs>>(jobResponse);
 
-        foreach (var item in jobRetorno)
+        foreach (var job in jobRetorno)
         {
-            Console.WriteLine($"Id: {item.Id} Type: {item.Type}");
-            Console.WriteLine($"Strand: {item.Strand}");
-            Console.WriteLine($"Strand Encoded {item.StrandEncoded}");
-            Console.WriteLine($"Gene Encoded {item.GeneEncoded}");
+            if (job.Type == "DecodeStrand")
+            {
+                string strandDecode = Conversor.EncodeBinaryToBase64(job.StrandEncoded);
+
+                using (var clientDecodeStrang = new HttpClient()) //POST - decode
+                {
+                    client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
+
+                    var responseDecodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/decode", new{strand = strandDecode});
+                    string decodeResponseString = await responseDecodeStrand.Content.ReadAsStringAsync();
+                    var decodeRetorno = JsonSerializer.Deserialize<"class">(decodeResponseString);
+
+                    // if (response.IsSuccessStatusCode)
+                    // {
+                    //     Chamar o metodo da classe "Jobs" que vai decodar o strand em formato string
+
+                    //     Tratamento feitos nas prop da classe
+                    //     Console.WriteLine($"Code:");// ['Success', 'Error', 'Fail', 'Unauthorized']
+                    //     Console.WriteLine($"Message:");
+                    // }
+                }
+            }
+            else if (job.Type == "EncodeStrand")
+            {
+                
+            }
+            else if (job.Type == "CheckGene")
+            {
+                
+            }
         }
         
         // Console.WriteLine("Code: Success");
@@ -95,24 +120,7 @@ using (var client = new HttpClient()) //GET - Jobs
     // }
 }
 
-using (var client = new HttpClient()) //POST - decode
-{
-    client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
-    client.DefaultRequestHeaders.Accept.Clear();
-    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
 
-    var idJob = new Jobs {Id = ""};//Dessa forma, consigo receber o id da classe e colocar na rota dinamica abaixo?
-    var response = await client.PostAsJsonAsync("/api/dna/jobs/{id}/decode", idJob);
-
-    // if (response.IsSuccessStatusCode)
-    // {
-    //     Chamar o metodo da classe "Jobs" que vai decodar o strand em formato string
-
-    //     Tratamento feitos nas prop da classe
-    //     Console.WriteLine($"Code:");// ['Success', 'Error', 'Fail', 'Unauthorized']
-    //     Console.WriteLine($"Message:");
-    // }
-}
 
 using (var client = new HttpClient()) //POST - encode
 {
