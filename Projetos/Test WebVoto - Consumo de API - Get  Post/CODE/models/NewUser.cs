@@ -12,6 +12,7 @@ namespace CODE.models
         {
 
         }
+        
         public NewUser(string userName, string email, string password) // Construtor
         {
             UserName = userName;
@@ -48,21 +49,6 @@ namespace CODE.models
         }
         public string Email { get; set; }
 
-        public string Password
-        {
-            get => Password;
-
-            set
-            {
-                bool aprovedPassword = value.Length >= 8;
-
-                if (!aprovedPassword)
-                {
-                    value = "Min size 8 chars.";
-                }
-
-                Password = value;
-            }
-        }
+        public string Password{ get; set; }
     }
 }

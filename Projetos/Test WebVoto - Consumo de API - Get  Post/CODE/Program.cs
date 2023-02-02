@@ -13,29 +13,11 @@ using (var client = new HttpClient()) //POST - NewUser
 {
     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
 
-    // Console.WriteLine("UserName: ");
-    // string userNameIn = Console.ReadLine();
+    var create = new NewUser ("CaioRodrigues", "caiorodrigues1989@gmail.com", "0811476693");
+    var response = await client.PostAsJsonAsync("/api/users/create", create);
 
-    // Console.WriteLine("Email: ");
-    // string emailIn = Convert.ToString(Console.ReadLine());
-
-    // Console.WriteLine("Password: ");
-    // string passwordIn = Convert.ToString(Console.ReadLine());
-
-    var creat = new NewUser ("CaioRodrigues", "caiorodrigues1989@gmail.com", "0811240413");
-    var response = await client.PostAsJsonAsync("/api/users/create", creat);
-
-    // if (response.IsSuccessStatusCode)
-    // {
-    //     Console.WriteLine("Code: Success");
-    //     Console.WriteLine("Message: Seu usuario foi criado.");
-    //     //Console.ReadKey();  //Pra qual situação realmente deve ser usado?
-    // }
-    // else
-    // {
-    //     Console.WriteLine($"Code: Error");
-    //     Console.WriteLine($"Message: Verifique suas informações.");
-    // } 
+    string newUserResponse = await response.Content.ReadAsStringAsync();
+    var newUserRetorno = JsonSerializer.Deserialize<Response>(newUserResponse);
 }
 
 using (var client = new HttpClient()) //POST - Login
@@ -45,33 +27,25 @@ using (var client = new HttpClient()) //POST - Login
     var user = new NewUser();
     var newLogin = new Login (user.UserName, user.Password); //Recebe os valores da NewUser
     var response = await client.PostAsJsonAsync("/api/users/login", newLogin);
-    
-    // if (response.IsSuccessStatusCode)
-    // {
-    //     //Tratamento feitos nas prop da classe
-    //     Console.WriteLine($"accessToken");
-    //     Console.WriteLine($"Code: Success");
-    //     Console.WriteLine($"Message:");
-    // }
-    // else
-    // {
-    //     Console.WriteLine($"Code: Error");
-    //     Console.WriteLine($"Message: ");
-    // }
+
+    string loginResponse = await response.Content.ReadAsStringAsync();
+    var loginRetorno = JsonSerializer.Deserialize<Response>(loginResponse);
+    var tokenRetorno = JsonSerializer.Deserialize<Token>(loginResponse); //dessa forma ele dáo response de maneira separada?
 }
 
 using (var client = new HttpClient()) //GET - Jobs
 {
+    var Token = new Token();
+
     client.BaseAddress = new Uri("https://date.nager.at"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
     client.DefaultRequestHeaders.Accept.Clear();
-    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
+    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token.AccessToken);
 
     HttpResponseMessage response = await client.GetAsync("api/dna/jobs");
 
     if (response.IsSuccessStatusCode)//GET
     {
         string jobResponse = await response.Content.ReadAsStringAsync();
-
         var jobRetorno = JsonSerializer.Deserialize<List<Jobs>>(jobResponse);
 
         foreach (var job in jobRetorno)
@@ -80,36 +54,39 @@ using (var client = new HttpClient()) //GET - Jobs
             {
                 string strandDecode = Conversor.EncodeBinaryToBase64(job.StrandEncoded);
 
-                using (var clientDecodeStrang = new HttpClient()) //POST - decode
+                using (var clientDecodeStrand = new HttpClient()) //POST - decode
                 {
                     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
                     client.DefaultRequestHeaders.Accept.Clear();
-                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token.AccessToken);
 
-                    var responseDecodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/decode", new{strand = strandDecode});
+                    var responseDecodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/decode", new { strand = strandDecode });
                     string decodeResponseString = await responseDecodeStrand.Content.ReadAsStringAsync();
-                    var decodeRetorno = JsonSerializer.Deserialize<"class">(decodeResponseString);
-
-                    // if (response.IsSuccessStatusCode)
-                    // {
-                    //     Chamar o metodo da classe "Jobs" que vai decodar o strand em formato string
-
-                    //     Tratamento feitos nas prop da classe
-                    //     Console.WriteLine($"Code:");// ['Success', 'Error', 'Fail', 'Unauthorized']
-                    //     Console.WriteLine($"Message:");
-                    // }
+                    var decodeRetorno = JsonSerializer.Deserialize<Response>(decodeResponseString);
                 }
             }
             else if (job.Type == "EncodeStrand")
             {
-                
+                string strandEncode = Conversor.EncodeBase64ToBinary(job.Strand);
+
+                using (var clientEncodeStrand = new HttpClient()) //POST - encode
+                {
+                    client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token.AccessToken);
+
+                    var responseEncodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/encode", new { strandEncode = strandEncode });
+                    string encodeResponseString = await responseEncodeStrand.Content.ReadAsStringAsync();
+                    var decodeRetorno = JsonSerializer.Deserialize<Response>(encodeResponseString);
+                }
             }
+
             else if (job.Type == "CheckGene")
             {
-                
+
             }
         }
-        
+
         // Console.WriteLine("Code: Success");
         // Console.WriteLine("Message: ");
     }
@@ -117,28 +94,6 @@ using (var client = new HttpClient()) //GET - Jobs
     // {
     //     Console.WriteLine("Code: Error!");
     //     Console.WriteLine("Message: ");
-    // }
-}
-
-
-
-using (var client = new HttpClient()) //POST - encode
-{
-    client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
-    client.DefaultRequestHeaders.Accept.Clear();
-    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
-
-    var id = new Jobs();// O valor vai receber ele mesmo pra conseguir ter uma leitura direto da classe?
-    var idJob = new Jobs {Id = id.Id};//Dessa forma, consigo receber o id da classe e colocar na rota dinamica abaixo?
-    var response = await client.PostAsJsonAsync("/api/dna/jobs/{id}/encode", idJob);
-
-    // if (response.IsSuccessStatusCode;)
-    // {
-    //     Chamar o metodo da classe "Jobs" que vai decodar o strand em formato binário
-
-    //     Tratamento feitos nas prop da classe
-    //     Console.WriteLine($"Code:");// ['Success', 'Error', 'Fail', 'Unauthorized']
-    //     Console.WriteLine($"Message:");
     // }
 }
 
@@ -164,15 +119,4 @@ using (var client = new HttpClient()) //POST - gene
 
 
 //Usar um método para as conecxoes?
-//Quando o tratamento da propriedade é na saida, eu jogo no get?
-//Verificar a linha da autorização com token
-//As mensgens no NewUser são necessárias ou a api vai trazer esse retorno?
-
-
-//O foreach já esta jogando os os valores nas propriedades da classe jobs?
-//Coloco read.line no NewUser ou deixo um valor atribuido?
-//Faço uma nova classe para os metodos de retorno, ou crio os métodos dentro da propria classe "jobs"
-
-
 //O encapsulamento deve ser na classe "NewUser" ou na classe "login"
-//Não há tratamento na classe "Login"
