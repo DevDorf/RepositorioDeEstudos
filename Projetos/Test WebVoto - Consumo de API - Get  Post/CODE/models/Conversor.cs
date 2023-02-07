@@ -49,7 +49,7 @@ namespace CODE.models
             {
                 string[] geneStringConvert = geneString.Split(); //Transforma o geneString em um vetor
 
-                foreach (var chars in geneStringConvert)
+                foreach (var chars in geneStringConvert)// Verifica quais as nucleobases da faixa complementar para mudar para faixa test
                 {
                     if(chars == "A")
                     {
@@ -69,11 +69,11 @@ namespace CODE.models
                     }
                 }
 
-                foreach (var charsGeneConvert in geneStringConvert)
+                foreach (dynamic charsGeneConvert in geneStringConvert)
                 {
-                    foreach (var charsStrand in strandEncode)
+                    foreach (dynamic charsStrand in strandEncode)
                     {
-                        for (int cont = 0; charsStrand == charsGeneConvert; cont++)// Verificar se o método
+                        for (int cont = 0; charsStrand == charsGeneConvert; cont++)
                         {
                             if(cont >= (geneString.Length)/2)
                             {
