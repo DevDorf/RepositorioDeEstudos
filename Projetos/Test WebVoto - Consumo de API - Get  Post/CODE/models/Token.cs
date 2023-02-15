@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CODE.models
 {
-    public class Token
+    public class Token : Response
     {
         public string AccessToken { get; set; }
     }

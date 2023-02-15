@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CODE.models
 {
@@ -22,28 +23,24 @@ namespace CODE.models
             return result;
         }
 
-        static public string GeneCheck(string strandEncode, string geneEncoded)
+        static public bool GeneCheck(string strandEncode, string geneEncoded)
         {
             // Converter os values em string
             string strandString = EncodeBinaryToBase64(strandEncode);
             string geneString = EncodeBinaryToBase64(geneEncoded);
-            dynamic result = false;
 
             if (geneString.StartsWith("CAT"))// Verificar se o geneEncoded começa com "CAT", se não, converter as nucleobase
             {
-                foreach (var charsGene in geneString)
+                int activated = (geneString.Length / 2) + 1; // Fazer tratamento para arredandar pracima caso for impar
+                bool isActivated = false;
+
+                for (int i = 0; i < geneString.Length ; i++)
                 {
-                    foreach (var charsStrand in strandEncode)
-                    {
-                        for (int cont = 0; charsStrand == charsGene; cont++)// verificar se o strandEncode está presente mais de 50% dentro do geneEncoded
-                        {
-                            if(cont >= (geneString.Length)/2)
-                            {
-                                result = true;
-                            }
-                        }
-                    }
+                    string fitaMetade = geneString.Substring(i, activated); //Fazer tratamento
+                    isActivated = strandEncode.Contains(fitaMetade);
                 }
+
+                return isActivated;
             }   
             else
             {
@@ -69,22 +66,18 @@ namespace CODE.models
                     }
                 }
 
-                foreach (dynamic charsGeneConvert in geneStringConvert)
-                {
-                    foreach (dynamic charsStrand in strandEncode)
-                    {
-                        for (int cont = 0; charsStrand == charsGeneConvert; cont++)
-                        {
-                            if(cont >= (geneString.Length)/2)
-                            {
-                                result = true;
-                            }
-                        }
-                    }
-                }
-            }
+                string geneConvert = string.Join("", geneStringConvert); //Converte o array em string
+                int activated = (geneConvert.Length / 2) + 1; // Fazer tratamento para arredandar pracima caso for impar
+                bool isActivated = false;
 
-            return result;
+                for (int i = 0; i < geneConvert.Length ; i++)
+                {
+                    string fitaMetade = geneConvert.Substring(i, activated); //Fazer tratamento
+                    isActivated = strandEncode.Contains(fitaMetade);
+                }
+
+                return isActivated;
+            }
         }
     }
 }

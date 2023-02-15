@@ -1,0 +1,5 @@
+d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\Tests\obj\Debug\net6.0\Tests.csproj.AssemblyReference.cache
+d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\Tests\obj\Debug\net6.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\Tests\obj\Debug\net6.0\Tests.AssemblyInfoInputs.cache
+d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\Tests\obj\Debug\net6.0\Tests.AssemblyInfo.cs
+d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\Tests\obj\Debug\net6.0\Tests.csproj.CoreCompileInputs.cache

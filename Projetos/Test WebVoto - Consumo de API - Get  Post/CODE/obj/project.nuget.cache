@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IMXCVeghUNca/V6K8cxTILcXeTJLbteFOxDschz+BsGQkKICpQkyNn1OhG/+SwE7jTvOYRQc7cGrRpDFsfmbNQ==",
+  "dgSpecHash": "F2nrMgXomOPOFdG6UT3oOtiMFs4Pm2yt4rCvgvzAvAEu05AL1cGUne83dSb8i9IZfueZlTlrtFzVC3Xt8F9dsQ==",
   "success": true,
-  "projectFilePath": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\code\\CODE.csproj",
+  "projectFilePath": "d:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth\\5.0.0-alpha3\\dotnetopenauth.5.0.0-alpha3.nupkg.sha512",
     "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.core\\5.0.0-alpha3\\dotnetopenauth.core.5.0.0-alpha3.nupkg.sha512",
