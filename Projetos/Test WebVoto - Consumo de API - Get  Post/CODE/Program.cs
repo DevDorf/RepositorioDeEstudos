@@ -13,7 +13,7 @@ using (var client = new HttpClient()) //POST - NewUser
 {
     try
     {
-        client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+        client.BaseAddress = new Uri("https://gene.lacuna.cc/");
 
         var create = new NewUser ("CaioRodrigues", "caiorodrigues1989@gmail.com", "0811476693");
         var response = await client.PostAsJsonAsync("/api/users/create", create);
@@ -33,7 +33,7 @@ using (var client = new HttpClient()) //POST - Login
 {
     try
     {
-        client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+        client.BaseAddress = new Uri("https://gene.lacuna.cc/");
 
         var user = new NewUser();
         var newLogin = new Login (user.UserName, user.Password); //Recebe os valores da NewUser
@@ -53,7 +53,7 @@ using (var client = new HttpClient()) //GET - Jobs
 {
     try
     {
-        client.BaseAddress = new Uri("https://date.nager.at"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+        client.BaseAddress = new Uri("https://gene.lacuna.cc/");
         client.DefaultRequestHeaders.Accept.Clear();
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.AccessToken);
 
@@ -72,11 +72,11 @@ using (var client = new HttpClient()) //GET - Jobs
 
                     using (var clientDecodeStrand = new HttpClient()) //POST - decode
                     {
-                        client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+                        client.BaseAddress = new Uri("https://gene.lacuna.cc/");
                         client.DefaultRequestHeaders.Accept.Clear();
                         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.AccessToken);
 
-                        var responseDecodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/decode", new StrandRequest(strandDecode)); // Criar classe pra cada request
+                        var responseDecodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/decode", new StrandRequest(strandDecode));
                         string decodeResponseString = await responseDecodeStrand.Content.ReadAsStringAsync();
                         var decodeRetorno = JsonSerializer.Deserialize<Response>(decodeResponseString);
                     }
@@ -88,11 +88,11 @@ using (var client = new HttpClient()) //GET - Jobs
 
                     using (var clientEncodeStrand = new HttpClient()) //POST - encode
                     {
-                        client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+                        client.BaseAddress = new Uri("https://gene.lacuna.cc/");
                         client.DefaultRequestHeaders.Accept.Clear();
                         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.AccessToken);
 
-                        var responseEncodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/encode", new StrandEncodedRequest(strandEncode)); // verificar como colocar apenas 1 parametro da classe JobReturn
+                        var responseEncodeStrand = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/encode", new StrandEncodedRequest(strandEncode));
                         string encodeResponseString = await responseEncodeStrand.Content.ReadAsStringAsync();
                         var decodeRetorno = JsonSerializer.Deserialize<Response>(encodeResponseString);
                     }
@@ -104,11 +104,11 @@ using (var client = new HttpClient()) //GET - Jobs
 
                     using (var clientGeneEncode = new HttpClient()) //POST - gene
                     {
-                        client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com"); //Trocar o Base address ao final (https://gene.lacuna.cc/)
+                        client.BaseAddress = new Uri("https://gene.lacuna.cc/");
                         client.DefaultRequestHeaders.Accept.Clear();
                         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.AccessToken);
 
-                        var responseGeneEncode = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/gene", new IsActvatedRequest(isActvated)); // verificar os parametrosda classe JobReturn
+                        var responseGeneEncode = await client.PostAsJsonAsync($"/api/dna/jobs/{job.Id}/gene", new IsActvatedRequest(isActvated));
                         string geneEncodeResponseString = await responseGeneEncode.Content.ReadAsStringAsync();
                         var geneEncodeRetorno = JsonSerializer.Deserialize<Response>(geneEncodeResponseString);
                     }
