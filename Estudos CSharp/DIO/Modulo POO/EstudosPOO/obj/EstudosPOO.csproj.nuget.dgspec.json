@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\Modulo POO.csproj": {}
+    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\EstudosPOO\\EstudosPOO.csproj": {}
   },
   "projects": {
-    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\Modulo POO.csproj": {
+    "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\EstudosPOO\\EstudosPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\Modulo POO.csproj",
-        "projectName": "Modulo POO",
-        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\Modulo POO.csproj",
+        "projectUniqueName": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\EstudosPOO\\EstudosPOO.csproj",
+        "projectName": "EstudosPOO",
+        "projectPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\EstudosPOO\\EstudosPOO.csproj",
         "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\obj\\",
+        "outputPath": "D:\\C\\DevDorf\\Git\\Csharp\\Estudos CSharp\\DIO\\Modulo POO\\EstudosPOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"

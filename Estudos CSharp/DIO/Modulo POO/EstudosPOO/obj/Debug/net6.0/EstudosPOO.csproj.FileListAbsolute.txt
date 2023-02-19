@@ -1,0 +1,15 @@
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\bin\Debug\net6.0\EstudosPOO.exe
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\bin\Debug\net6.0\EstudosPOO.deps.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\bin\Debug\net6.0\EstudosPOO.runtimeconfig.json
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\bin\Debug\net6.0\EstudosPOO.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\bin\Debug\net6.0\EstudosPOO.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.csproj.AssemblyReference.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.AssemblyInfoInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.AssemblyInfo.cs
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.csproj.CoreCompileInputs.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\refint\EstudosPOO.dll
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.pdb
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\EstudosPOO.genruntimeconfig.cache
+D:\C\DevDorf\Git\Csharp\Estudos CSharp\DIO\Modulo POO\EstudosPOO\obj\Debug\net6.0\ref\EstudosPOO.dll
