@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Nome_Produto": "Materia de escritório",
+    "Preco": 25.00,
+    "DataVenda": "2023-02-26T12:08:28.6928206-03:00",
+    "Desconto": null
+  },
+  {
+    "Id": 2,
+    "Nome_Produto": "Licença de Software",
+    "Preco": 100.00,
+    "DataVenda": "2023-02-26T12:08:28.6928206-03:00", // ISO 8601 - iso que padroniza a formatização de data entre sistemas
+    "Desconto": 10
+  }
+]
+
