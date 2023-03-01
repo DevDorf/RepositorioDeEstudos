@@ -45,10 +45,13 @@ namespace DesafioProjetoHospedagem.Models
             // TODO: Retorna o valor da diária
             decimal valorTotal = DiasReservados * Suite.ValorDiaria;
             decimal valor = valorTotal;
-            decimal desconto = valorTotal * (10 / 100);
+            decimal diasParaDesconto = 10;
+            decimal porcetagem = 0.1m;
+            decimal desconto = valorTotal * porcetagem;
+            
 
             // Regra: Caso os dias reservados forem maior ou igual a 10, conceder um desconto de 10%
-            if (DiasReservados >= 10)
+            if (DiasReservados >= diasParaDesconto)
             {
                 valor = valorTotal - desconto;
             }
