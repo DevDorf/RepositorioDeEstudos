@@ -1,0 +1,15 @@
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\bin\Debug\net6.0\Target Sistemas Test.exe
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\bin\Debug\net6.0\Target Sistemas Test.deps.json
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\bin\Debug\net6.0\Target Sistemas Test.runtimeconfig.json
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\bin\Debug\net6.0\Target Sistemas Test.dll
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\bin\Debug\net6.0\Target Sistemas Test.pdb
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.csproj.AssemblyReference.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.AssemblyInfoInputs.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.AssemblyInfo.cs
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.csproj.CoreCompileInputs.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.dll
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\refint\Target Sistemas Test.dll
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.pdb
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\Target Sistemas Test.genruntimeconfig.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Target Sistemas Test\obj\Debug\net6.0\ref\Target Sistemas Test.dll
