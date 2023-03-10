@@ -68,7 +68,7 @@ using (var client = new HttpClient()) //GET - Jobs
             {
                 if (job.Type == "DecodeStrand")
                 {
-                    string strandDecode = Conversor.EncodeBinaryToBase64(job.StrandEncoded);
+                    string strandDecode = Conversor.DecodeBase64ToBinary(job.StrandEncoded);
 
                     using (var clientDecodeStrand = new HttpClient()) //POST - decode
                     {
@@ -84,7 +84,7 @@ using (var client = new HttpClient()) //GET - Jobs
 
                 else if (job.Type == "EncodeStrand")
                 {
-                    string strandEncode = Conversor.EncodeBase64ToBinary(job.Strand);
+                    string strandEncode = Conversor.EncodeStringToBase64(job.Strand);
 
                     using (var clientEncodeStrand = new HttpClient()) //POST - encode
                     {

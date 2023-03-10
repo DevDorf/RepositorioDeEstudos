@@ -1,124 +1,124 @@
 {
   "version": 2,
-  "dgSpecHash": "F2nrMgXomOPOFdG6UT3oOtiMFs4Pm2yt4rCvgvzAvAEu05AL1cGUne83dSb8i9IZfueZlTlrtFzVC3Xt8F9dsQ==",
+  "dgSpecHash": "WucHkbc9jv2tGOt1SjCgc1jPeDd9QHeBYtnxjIgEz9kJUQJzLNMO2O+tZK6V5yXrEQNMcdsNdZqNXHXfWtzSyw==",
   "success": true,
-  "projectFilePath": "d:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Test WebVoto - Consumo de API - Get  Post\\CODE\\CODE.csproj",
+  "projectFilePath": "D:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Consumo de API - Get  Post\\CODE\\CODE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth\\5.0.0-alpha3\\dotnetopenauth.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.core\\5.0.0-alpha3\\dotnetopenauth.core.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.core.ui\\5.0.0-alpha3\\dotnetopenauth.core.ui.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.mvc\\5.0.0-alpha3\\dotnetopenauth.mvc.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth.common\\5.0.0-alpha3\\dotnetopenauth.oauth.common.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth.consumer\\5.0.0-alpha3\\dotnetopenauth.oauth.consumer.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth.core\\5.0.0-alpha3\\dotnetopenauth.oauth.core.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth.serviceprovider\\5.0.0-alpha3\\dotnetopenauth.oauth.serviceprovider.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth2.authorizationserver\\5.0.0-alpha3\\dotnetopenauth.oauth2.authorizationserver.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth2.client\\5.0.0-alpha3\\dotnetopenauth.oauth2.client.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth2.client.ui\\5.0.0-alpha3\\dotnetopenauth.oauth2.client.ui.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth2.clientauthorization\\5.0.0-alpha3\\dotnetopenauth.oauth2.clientauthorization.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth2.core\\5.0.0-alpha3\\dotnetopenauth.oauth2.core.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.oauth2.resourceserver\\5.0.0-alpha3\\dotnetopenauth.oauth2.resourceserver.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openid.core\\5.0.0-alpha3\\dotnetopenauth.openid.core.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openid.core.ui\\5.0.0-alpha3\\dotnetopenauth.openid.core.ui.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openid.provider\\5.0.0-alpha3\\dotnetopenauth.openid.provider.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openid.provider.ui\\5.0.0-alpha3\\dotnetopenauth.openid.provider.ui.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openid.relyingparty\\5.0.0-alpha3\\dotnetopenauth.openid.relyingparty.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openid.relyingparty.ui\\5.0.0-alpha3\\dotnetopenauth.openid.relyingparty.ui.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\dotnetopenauth.openidoauth\\5.0.0-alpha3\\dotnetopenauth.openidoauth.5.0.0-alpha3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.aspnet.mvc\\5.0.0\\microsoft.aspnet.mvc.5.0.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.aspnet.razor\\3.0.0\\microsoft.aspnet.razor.3.0.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.aspnet.webpages\\3.0.0\\microsoft.aspnet.webpages.3.0.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.bcl\\1.1.3\\microsoft.bcl.1.1.3.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.bcl.build\\1.0.10\\microsoft.bcl.build.1.0.10.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.net.http\\2.2.15\\microsoft.net.http.2.2.15.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0\\runtime.native.system.io.compression.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0\\runtime.native.system.net.http.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.serialization.formatters\\4.3.0\\system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.cng\\4.3.0\\system.security.cryptography.cng.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Camila\\.nuget\\packages\\validation\\2.0.2.13022\\validation.2.0.2.13022.nupkg.sha512"
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth\\5.0.0-alpha3\\dotnetopenauth.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.core\\5.0.0-alpha3\\dotnetopenauth.core.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.core.ui\\5.0.0-alpha3\\dotnetopenauth.core.ui.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.mvc\\5.0.0-alpha3\\dotnetopenauth.mvc.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth.common\\5.0.0-alpha3\\dotnetopenauth.oauth.common.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth.consumer\\5.0.0-alpha3\\dotnetopenauth.oauth.consumer.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth.core\\5.0.0-alpha3\\dotnetopenauth.oauth.core.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth.serviceprovider\\5.0.0-alpha3\\dotnetopenauth.oauth.serviceprovider.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth2.authorizationserver\\5.0.0-alpha3\\dotnetopenauth.oauth2.authorizationserver.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth2.client\\5.0.0-alpha3\\dotnetopenauth.oauth2.client.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth2.client.ui\\5.0.0-alpha3\\dotnetopenauth.oauth2.client.ui.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth2.clientauthorization\\5.0.0-alpha3\\dotnetopenauth.oauth2.clientauthorization.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth2.core\\5.0.0-alpha3\\dotnetopenauth.oauth2.core.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.oauth2.resourceserver\\5.0.0-alpha3\\dotnetopenauth.oauth2.resourceserver.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openid.core\\5.0.0-alpha3\\dotnetopenauth.openid.core.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openid.core.ui\\5.0.0-alpha3\\dotnetopenauth.openid.core.ui.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openid.provider\\5.0.0-alpha3\\dotnetopenauth.openid.provider.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openid.provider.ui\\5.0.0-alpha3\\dotnetopenauth.openid.provider.ui.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openid.relyingparty\\5.0.0-alpha3\\dotnetopenauth.openid.relyingparty.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openid.relyingparty.ui\\5.0.0-alpha3\\dotnetopenauth.openid.relyingparty.ui.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\dotnetopenauth.openidoauth\\5.0.0-alpha3\\dotnetopenauth.openidoauth.5.0.0-alpha3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.aspnet.mvc\\5.0.0\\microsoft.aspnet.mvc.5.0.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.aspnet.razor\\3.0.0\\microsoft.aspnet.razor.3.0.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.aspnet.webpages\\3.0.0\\microsoft.aspnet.webpages.3.0.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.bcl\\1.1.3\\microsoft.bcl.1.1.3.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.bcl.build\\1.0.10\\microsoft.bcl.build.1.0.10.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.net.http\\2.2.15\\microsoft.net.http.2.2.15.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0\\runtime.native.system.io.compression.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0\\runtime.native.system.net.http.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.serialization.formatters\\4.3.0\\system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.cng\\4.3.0\\system.security.cryptography.cng.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\CaioRodrigues\\.nuget\\packages\\validation\\2.0.2.13022\\validation.2.0.2.13022.nupkg.sha512"
   ],
   "logs": [
     {
@@ -128,277 +128,277 @@
       "message": "DotNetOpenAuth.Core 5.0.0-alpha3 does not provide an inclusive lower bound for dependency Microsoft.Net.Http. An approximate best match of Microsoft.Net.Http 2.0.20505 was resolved.",
       "libraryId": "Microsoft.Net.Http",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.Core",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.Core.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.Core.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.Core.UI",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.Mvc 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.Mvc 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.Mvc",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth.Common 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth.Common 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth.Common",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth.Consumer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth.Consumer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth.Consumer",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth.Core",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth.ServiceProvider 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth.ServiceProvider 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth.ServiceProvider",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth2.AuthorizationServer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth2.AuthorizationServer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth2.AuthorizationServer",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth2.Client 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth2.Client 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth2.Client",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth2.Client.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth2.Client.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth2.Client.UI",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth2.ClientAuthorization 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth2.ClientAuthorization 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth2.ClientAuthorization",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth2.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth2.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth2.Core",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OAuth2.ResourceServer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OAuth2.ResourceServer 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OAuth2.ResourceServer",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenId.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenId.Core 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenId.Core",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenId.Core.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenId.Core.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenId.Core.UI",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenId.Provider 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenId.Provider 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenId.Provider",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenId.Provider.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenId.Provider.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenId.Provider.UI",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenId.RelyingParty 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenId.RelyingParty 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenId.RelyingParty",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenId.RelyingParty.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenId.RelyingParty.UI 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenId.RelyingParty.UI",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetOpenAuth.OpenIdOAuth 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetOpenAuth.OpenIdOAuth 5.0.0-alpha3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetOpenAuth.OpenIdOAuth",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Mvc 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Mvc 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Razor 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Razor 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebPages 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Bcl 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Bcl 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Bcl",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Net.Http 2.2.15' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Net.Http 2.2.15' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Net.Http",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Validation 2.0.2.13022' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Validation 2.0.2.13022' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Validation",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     }
   ]

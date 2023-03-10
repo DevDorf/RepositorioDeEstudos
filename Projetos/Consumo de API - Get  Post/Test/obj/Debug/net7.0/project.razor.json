@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "d:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Consumo de API - Get  Post\\Test\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "d:\\C\\DevDorf\\Git\\Csharp\\Projetos\\Consumo de API - Get  Post\\Test\\GeneTest.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}

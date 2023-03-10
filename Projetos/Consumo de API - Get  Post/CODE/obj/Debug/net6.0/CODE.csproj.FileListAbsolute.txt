@@ -47,3 +47,11 @@ d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\CODE\
 d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.pdb
 d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.genruntimeconfig.cache
 d:\C\DevDorf\Git\Csharp\Projetos\Test WebVoto - Consumo de API - Get  Post\CODE\obj\Debug\net6.0\ref\CODE.dll
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.csproj.AssemblyReference.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.GeneratedMSBuildEditorConfig.editorconfig
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.AssemblyInfoInputs.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.AssemblyInfo.cs
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.csproj.CoreCompileInputs.cache
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.dll
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\refint\CODE.dll
+D:\C\DevDorf\Git\Csharp\Projetos\Consumo de API - Get  Post\CODE\obj\Debug\net6.0\CODE.pdb

@@ -9,29 +9,29 @@ namespace CODE.models
 {
     public static class Conversor
     {
-        static public string EncodeBinaryToBase64(string strandEncode) // Binário para string
+        static public string EncodeStringToBase64(string strand) // String para Binário
         {
-            byte[] strandEncodeAsBytes = Encoding.ASCII.GetBytes(strandEncode);
-            string result = System.Convert.ToBase64String(strandEncodeAsBytes);
+            byte[] strandAsBytes = Encoding.ASCII.GetBytes(strand);
+            string result = System.Convert.ToBase64String(strandAsBytes);
             return result;
         }
 
-        static public string EncodeBase64ToBinary(string strand) // String para binário
+        static public string DecodeBase64ToBinary(string strandEncodedBase64) // Binário para String
         {
-            byte[] strandAsBytes = System.Convert.FromBase64String(strand);
-            string result = System.Text.ASCIIEncoding.ASCII.GetString(strandAsBytes);
+            byte[] strandEncodedAsBytes = System.Convert.FromBase64String(strandEncodedBase64);
+            string result = System.Text.ASCIIEncoding.ASCII.GetString(strandEncodedAsBytes);
             return result;
         }
 
         static public bool GeneCheck(string strandEncode, string geneEncoded)
         {
             // Converter os values em string
-            string strandString = EncodeBinaryToBase64(strandEncode);
-            string geneString = EncodeBinaryToBase64(geneEncoded);
+            string strandString = DecodeBase64ToBinary(strandEncode);
+            string geneString = DecodeBase64ToBinary(geneEncoded);
 
-            if (geneString.StartsWith("CAT"))// Verificar se o geneEncoded começa com "CAT", se não, converter as nucleobase
+            if (geneString.StartsWith("CAT"))// Verificar se o geneEncoded começa com "CAT", se não, converter as nucleobase no else
             {
-                int activated = (geneString.Length / 2) + 1; // Fazer tratamento para arredandar pracima caso for impar
+                int activated = (geneString.Length / 2) + 1; // Fazer tratamento para arredondar pracima caso for impar
                 bool isActivated = false;
 
                 for (int i = 0; i < geneString.Length ; i++)
