@@ -1,2 +1,2 @@
-# Csharp
-Estudo direcionados a linguagem C#
+# Repositório de Estudos
+Repositório direcionados estudos em geral dobre programação
